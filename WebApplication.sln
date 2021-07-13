@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "WebApplication\RazorPagesMovie.csproj", "{6FD42DA6-DF10-4BB3-B2A8-4D7C91C89395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "WebApplication\RazorPagesMovie.csproj", "{6FD42DA6-DF10-4BB3-B2A8-4D7C91C89395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "WebApplication1\MvcMovie.csproj", "{CEB07D55-8CA0-4EE6-A49A-F2E3FBEB8013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6FD42DA6-DF10-4BB3-B2A8-4D7C91C89395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FD42DA6-DF10-4BB3-B2A8-4D7C91C89395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FD42DA6-DF10-4BB3-B2A8-4D7C91C89395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB07D55-8CA0-4EE6-A49A-F2E3FBEB8013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB07D55-8CA0-4EE6-A49A-F2E3FBEB8013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB07D55-8CA0-4EE6-A49A-F2E3FBEB8013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB07D55-8CA0-4EE6-A49A-F2E3FBEB8013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
