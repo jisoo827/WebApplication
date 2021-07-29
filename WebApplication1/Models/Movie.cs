@@ -21,7 +21,7 @@ namespace MvcMovie.Models
         [DataType(DataType.Currency), Range(1, 100), Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
 
-        [RegularExpression(@"^[A-Z가힣]+[a-zA-Z0-9가-힣""'\s-]*$"), StringLength(10), Required]
+        [RegularExpression(@"^[A-Z가힣]+[a-zA-Z0-9가-힣""'\s-]*$"), StringLength(10)]
         public string Rating { get; set; }
     }
 }
